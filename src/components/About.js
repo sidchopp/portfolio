@@ -1,9 +1,10 @@
 import React, { useEffect } from "react";
 import { Button, Checkbox, Form } from "semantic-ui-react";
+import Page from "./Page";
 
 function About() {
   return (
-    <>
+    <Page title="About">
       <Form>
         <Form.Field>
           <label>First Name</label>
@@ -18,7 +19,7 @@ function About() {
         </Form.Field>
         <Button type="submit">Submit</Button>
       </Form>
-    </>
+    </Page>
   );
 }
 
