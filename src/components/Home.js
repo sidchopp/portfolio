@@ -6,15 +6,14 @@ import '../stylesheets/Home.css'
 
 function Home() {
   return (
-    <div  >
+
       <div className=" content-wrap">
-        <Navbar />
+
         <HomeContent />
       </div>
-      <div className="footer">
-        <Footer />
-      </div>
-    </div>
+
+
+
 
   );
 }

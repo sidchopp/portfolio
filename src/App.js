@@ -1,24 +1,28 @@
 import React from 'react'
-//import Home from './components/Home'
 import Navbar from "./components/Navbar";
 import HomeContent from "./components/HomeContent";
 import Footer from "./components/Footer";
-//import { BrowserRouter, Switch, Route } from "react-router-dom";
+import About from './components/About'
+import Work from './components/Work'
+import Home from './components/Home'
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import './stylesheets/App.css'
 
 function App() {
   return (
-
-      <div className="page-container"> 
-
-      <div className=" content-wrap">
-        <Navbar />
-        <HomeContent />
-       </div>
-      <div className="footer">
-        <Footer />
+    <BrowserRouter>
+      <div className="page-container">
+        <div className=" content-wrap"><Navbar /></div>
+        <Switch>
+          <Route path="/" exact> <Home /> </Route>
+          <Route path="/about" exact> <About /></Route>
+          <Route path="/work" exact><Work /> </Route>
+          {/* <Route path="/sign-in" exact><SignIn /> </Route> */}
+        </Switch>
+        <div className="footer"><Footer /> </div>
       </div>
-    </div>
+    </BrowserRouter>
+
 
 
 
