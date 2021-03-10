@@ -12,26 +12,25 @@ export default class MenuExampleInvertedSegment extends Component {
     return (
       <Segment inverted>
         <Menu inverted secondary stackable>
-          <Menu.Item
-            size="huge"
+          {/* <Menu.Item
             name="Siddharth"
             active={activeItem === "Siddharth"}
             onClick={this.handleItemClick}
-          />
+          /> */}
           <Menu.Item
-            position="right"
             name="home"
             active={activeItem === "home"}
             onClick={this.handleItemClick}
           />
           <Menu.Item
-            name="messages"
-            active={activeItem === "messages"}
+            position="right"
+            name="about"
+            active={activeItem === "about"}
             onClick={this.handleItemClick}
           />
           <Menu.Item
-            name="friends"
-            active={activeItem === "friends"}
+            name="work"
+            active={activeItem === "work"}
             onClick={this.handleItemClick}
           />
         </Menu>
