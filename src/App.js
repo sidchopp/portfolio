@@ -5,7 +5,7 @@ import './stylesheets/App.css'
 
 function App() {
   return (
-    <div>
+    <div className="page-container">
       <Home />
     </div>
   );

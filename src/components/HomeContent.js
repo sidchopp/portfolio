@@ -1,27 +1,18 @@
-import React, { useEffect } from "react";
-
+import React from "react";
 import "semantic-ui-css/semantic.min.css";
 import SidPic from '../images/sidPic.jpg'
 //import './stylesheets/HomeContent.css'
 import {
   Button,
-  Container,
-  Divider,
   Grid,
   Header,
-  Icon,
   Image,
-  List,
-  Menu,
   Segment,
-  Sidebar,
-  Visibility,
 } from 'semantic-ui-react'
 
 function HomeContent() {
   return (
     <div>
-
       <Segment style={{ padding: '8em 0em' }} vertical>
         <Grid container stackable verticalAlign='middle'>
           <Grid.Row>
@@ -45,16 +36,13 @@ function HomeContent() {
               <Button inverted color='orange'>
                 Contact Me
                </Button>
-
             </Grid.Column>
             <Grid.Column floated='right' width={6}>
               <Image bordered rounded size='large' src={SidPic} />
             </Grid.Column>
           </Grid.Row>
-
         </Grid>
       </Segment>
-
     </div>
   );
 }
