@@ -6,6 +6,7 @@ import { Segment, Button, Image, List, Divider, Container } from "semantic-ui-re
 
 
 const Footer = () => {
+  let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
   return (
     <div >
       <Segment inverted textAlign="center"  >
@@ -15,12 +16,16 @@ const Footer = () => {
         <Button circular color='black' icon='twitter' bordered inverted as='a' href="#" target="_blank" />
         <div>
           <List horizontal inverted divided link size='small' style={{ marginTop: '0.5em' }}>
-            <List.Item as='a' href='#'>
+            <List.Item as='a' href='#' style={{ color: "orange" }}>
               Sid-portfolio
             </List.Item>
-            <List.Item as='a' href='#'>
+            <List.Item >
+              Hope you are enjoying  {days[new Date().getDay()]}
+            </List.Item>
+            <List.Item >
               Copyright &copy; {new Date().getFullYear()}
             </List.Item>
+
           </List>
         </div>
       </Segment>
