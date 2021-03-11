@@ -1,8 +1,9 @@
 import React, { useEffect } from "react";
 import { Button, Checkbox, Form } from "semantic-ui-react";
+import Page from "./Page";
 function Contact() {
   return (
-    <>
+    <Page title="Contact">
       <Form>
         <Form.Field>
           <label style={{ color: "white" }}>First Name</label>
@@ -22,7 +23,7 @@ function Contact() {
         </Form.Field>
         <Button type="submit">Send Message</Button>
       </Form>
-    </>
+    </Page>
   );
 }
 
