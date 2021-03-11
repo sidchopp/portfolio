@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 import "semantic-ui-css/semantic.min.css";
 import SidPic from '../images/sidPic.jpg'
 //import './stylesheets/HomeContent.css'
@@ -33,7 +34,8 @@ function HomeContent() {
                 style={{ color: 'white' }}>
                 A Tech Enthusiast and Physics lover.
             </Header>
-              <Button inverted color='orange'>
+              <Button inverted color='orange' as={Link}
+                to="contact">
                 Contact Me
                </Button>
             </Grid.Column>

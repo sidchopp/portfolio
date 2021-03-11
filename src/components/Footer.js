@@ -14,7 +14,7 @@ const Footer = () => {
         <Button circular color='black' icon='facebook' bordered inverted as='a' href="https://www.facebook.com/siddchopp/" target="_blank" />
         <Button circular color='black' icon='twitter' bordered inverted as='a' href="#" target="_blank" />
         <div>
-          <List horizontal inverted divided link size='small'>
+          <List horizontal inverted divided link size='small' style={{ marginTop: '0.5em' }}>
             <List.Item as='a' href='#'>
               Sid-portfolio
             </List.Item>

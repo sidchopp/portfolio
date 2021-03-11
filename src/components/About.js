@@ -1,24 +1,85 @@
 import React, { useEffect } from "react";
-import { Button, Checkbox, Form } from "semantic-ui-react";
+import Fusion from "../images/fusion.PNG";
 import Page from "./Page";
+import "../stylesheets/About.css";
+import {
+  Divider,
+  Segment,
+  Grid,
+  Image,
+  Header,
+  Button,
+  Container,
+} from "semantic-ui-react";
 
 function About() {
   return (
     <Page title="About">
-      <Form>
-        <Form.Field>
-          <label>First Name</label>
-          <input placeholder="First Name" />
-        </Form.Field>
-        <Form.Field>
-          <label>Last Name</label>
-          <input placeholder="Last Name" />
-        </Form.Field>
-        <Form.Field>
-          <Checkbox label="I agree to the Terms and Conditions" />
-        </Form.Field>
-        <Button type="submit">Submit</Button>
-      </Form>
+      <Grid>
+        <Grid.Column mobile={16} tablet={8} computer={4}>
+          <p style={{ fontSize: "1.33em", color: "white" }}>
+            Fusion was created by a member of Tech and Innovation industry in
+            Alberta and four learners of the Full Stack Development Fusion was
+            created by a member of Tech and Innovation industry in Alberta and
+            four learners of the Full Stack Development Fusion was created by a
+            member of Tech and Innovation industry in Alberta and four learners
+            of the Full Stack Development Fusion was created by a member of Tech
+            and Innovation industry in Alberta and four learners of the Full
+            Stack Development Fusion was created by a member of Tech and
+            Innovation industry in Alberta and four learners of the Full Stack
+            Development Fusion was created by a member of Tech and Innovation
+            industry in Alberta and four learners of the Full Stack Development
+            Alberta and four learners of the Full Stack Development Fusion was
+            created by a member of Tech and Innovation industry in Alberta and
+            four learners of the Full Stack Development Fusion was created by a
+            member of Tech and Innovation industry in Alberta and four learners
+            of the Full Stack Development Fusion was created by a member of Tech
+            and Innovation industry in Alberta and four learners of the Full
+            Stack Development Fusion was created by a member of Tech and
+            Innovation industry in Alberta and four learners of the Full Stack
+            Development Fusion was created by a member of Tech and Innovation
+            industry in Alberta and four learners of the Full Stack Development
+            Alberta and four learners of the Full Stack Development Fusion was
+            created by a member of Tech and Innovation industry in Alberta and
+            four learners of the Full Stack Development Fusion was created by a
+            member of Tech and Innovation industry in Alberta and four learners
+            of the Full Stack Development Fusion was created by a member of Tech
+            and Innovation industry in Alberta and four learners of the Full
+            Stack Development Fusion was created by a member of Tech and
+            Innovation industry in Alberta and four learners of the Full Stack
+            Development Fusion was created by a member of Tech and Innovation
+            industry in Alberta and four learners of the Full Stack Development
+            Alberta and four learners of the Full Stack Development Fusion was
+            created by a member of Tech and Innovation industry in Alberta and
+            four learners of the Full Stack Development Fusion was created by a
+            member of Tech and Innovation industry in Alberta and four learners
+            of the Full Stack Development Fusion was created by a member of Tech
+            and Innovation industry in Alberta and four learners of the Full
+            Stack Development Fusion was created by a member of Tech and
+            Innovation industry in Alberta and four learners of the Full Stack
+            Development Fusion was created by a member of Tech and Innovation
+            industry in Alberta and four learners of the Full Stack Development
+          </p>
+        </Grid.Column>
+        <Grid.Column mobile={16} tablet={8} computer={4}>
+          <p style={{ fontSize: "1.33em", color: "white" }}>
+            Fusion was created by a member of Tech and Innovation industry in
+            Alberta and four learners of the Full Stack Development
+          </p>
+        </Grid.Column>
+        <Grid.Column mobile={16} tablet={8} computer={4}>
+          <p style={{ fontSize: "1.33em", color: "white" }}>
+            Fusion was created by a member of Tech and Innovation industry in
+            Alberta and four learners of the Full Stack Development
+          </p>
+        </Grid.Column>
+        <Grid.Column mobile={16} tablet={8} computer={4}>
+          <p style={{ fontSize: "1.33em", color: "white" }}>
+            Fusion was created by a member of Tech and Innovation industry in
+            Alberta and four learners of the Full Stack Development
+          </p>
+        </Grid.Column>
+      </Grid>
     </Page>
   );
 }

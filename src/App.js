@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import About from './components/About'
 import Work from './components/Work'
 import Home from './components/Home'
+import Contact from './components/Contact'
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import './stylesheets/App.css'
 
@@ -17,7 +18,7 @@ function App() {
           <Route path="/" exact> <Home /> </Route>
           <Route path="/about" exact> <About /></Route>
           <Route path="/work" exact><Work /> </Route>
-          {/* <Route path="/sign-in" exact><SignIn /> </Route> */}
+          <Route path="/contact" exact><Contact /> </Route>
         </Switch>
         <div className="footer"><Footer /> </div>
       </div>
