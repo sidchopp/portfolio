@@ -16,11 +16,11 @@ const Footer = () => {
         <Button circular color='black' icon='twitter' bordered inverted as='a' href="#" target="_blank" />
         <div>
           <List horizontal inverted divided link size='small' style={{ marginTop: '0.5em' }}>
-            <List.Item as='a' href='#' style={{ color: "orange" }}>
-              Sid-portfolio
-            </List.Item>
             <List.Item >
               Hope you are enjoying  {days[new Date().getDay()]}
+            </List.Item>
+            <List.Item as='a' href='#' style={{ color: "orange" }}>
+              Sid-portfolio
             </List.Item>
             <List.Item >
               Copyright &copy; {new Date().getFullYear()}

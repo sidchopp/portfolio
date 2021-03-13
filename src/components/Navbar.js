@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Menu, Segment } from "semantic-ui-react";
+import { Menu, Segment, Icon } from "semantic-ui-react";
 import { Link } from 'react-router-dom'
 import "semantic-ui-css/semantic.min.css";
 export default class MenuExampleInvertedSegment extends Component {
@@ -12,19 +12,15 @@ export default class MenuExampleInvertedSegment extends Component {
 
     return (
       <Segment inverted>
-        <Menu inverted secondary stackable>
-          {/* <Menu.Item
-            name="Siddharth"
-            active={activeItem === "Siddharth"}
-            onClick={this.handleItemClick}
-          /> */}
+        <Menu icon='labeled' inverted secondary stackable>
           <Menu.Item
             as={Link}
             to=""
             name="home"
             active={activeItem === "home"}
             onClick={this.handleItemClick}
-          />
+          ><Icon name='home' />Home</Menu.Item>
+
           <Menu.Item
             as={Link}
             to="about"
@@ -32,15 +28,17 @@ export default class MenuExampleInvertedSegment extends Component {
             name="about"
             active={activeItem === "about"}
             onClick={this.handleItemClick}
-          />
+          ><Icon name='male' />About Me</Menu.Item>
           <Menu.Item
             as={Link}
             to="work"
             name="work"
             active={activeItem === "work"}
             onClick={this.handleItemClick}
-          />
+          > <Icon name='suitcase' />Work</Menu.Item>
+
         </Menu>
+
       </Segment>
     );
   }
