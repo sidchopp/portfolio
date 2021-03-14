@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from 'react-router-dom'
 import "semantic-ui-css/semantic.min.css";
 //import SidPic from '../images/sidPic.jpg'
-//import './stylesheets/HomeContent.css'
+
 import {
   Button,
   Grid,
@@ -14,7 +14,7 @@ import {
 function HomeContent() {
   return (
     <div>
-      <Segment style={{ padding: '8em 0em' }} vertical>
+      <Segment style={{ padding: '8em 0em', width: "50%" }} vertical>
         <Grid container stackable verticalAlign='middle'>
           <Grid.Row>
             <Grid.Column width={8}>

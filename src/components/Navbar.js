@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import { Menu, Segment, Icon } from "semantic-ui-react";
 import { Link } from 'react-router-dom'
 import "semantic-ui-css/semantic.min.css";
+
+import Burger from './Nav/Burger';
 export default class MenuExampleInvertedSegment extends Component {
   state = { activeItem: "home" };
 

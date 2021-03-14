@@ -20,11 +20,11 @@ const StyledBurger = styled.div`
 
   div {
     width: 2rem;
-    height: 0.25rem;
-    background-color: ${({ open }) => open ? '#ccc' : 'white'};
+    height: 0.20rem;
+    background-color: ${({ open }) => open ? 'black' : 'orange'};
     border-radius: 10px;
     transform-origin: 1px;
-    transition: all 0.3s linear;
+    transition: all 0.5s linear;
     
 
     &:nth-child(1) {
@@ -32,7 +32,7 @@ const StyledBurger = styled.div`
     }
 
     &:nth-child(2) {
-      transform: ${({ open }) => open ? 'translateX(100%)' : 'translateX(0)'};
+      transform: ${({ open }) => open ? 'translateX(-100%)' : 'translateX(0)'};
       opacity: ${({ open }) => open ? 0 : 1};
     }
 
