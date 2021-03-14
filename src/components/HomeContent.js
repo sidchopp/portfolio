@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom'
 import "semantic-ui-css/semantic.min.css";
-import SidPic from '../images/sidPic.jpg'
+//import SidPic from '../images/sidPic.jpg'
 //import './stylesheets/HomeContent.css'
 import {
   Button,
@@ -39,9 +39,9 @@ function HomeContent() {
                 Contact Me
                </Button>
             </Grid.Column>
-            <Grid.Column floated='right' width={6}>
+            {/* <Grid.Column floated='right' width={6}>
               <Image bordered rounded size='large' src={SidPic} />
-            </Grid.Column>
+            </Grid.Column> */}
           </Grid.Row>
         </Grid>
       </Segment>
