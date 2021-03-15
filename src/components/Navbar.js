@@ -36,6 +36,13 @@ export default class MenuExampleInvertedSegment extends Component {
             active={activeItem === "work"}
             onClick={this.handleItemClick}
           > <Icon name='suitcase' />Work</Menu.Item>
+          <Menu.Item
+            as={Link}
+            to="contact"
+            name="contact"
+            active={activeItem === "contact"}
+            onClick={this.handleItemClick}
+          > <Icon name='mail' />Contact</Menu.Item>
 
         </Menu>
 
