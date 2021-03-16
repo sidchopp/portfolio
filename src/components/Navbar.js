@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Menu, Segment, Icon } from "semantic-ui-react";
 import { Link } from 'react-router-dom'
 import "semantic-ui-css/semantic.min.css";
+
 export default class MenuExampleInvertedSegment extends Component {
   state = { activeItem: "home" };
 
@@ -13,6 +14,7 @@ export default class MenuExampleInvertedSegment extends Component {
     return (
       <Segment inverted>
         <Menu icon='labeled' inverted secondary stackable>
+
           <Menu.Item
             as={Link}
             to=""
@@ -20,7 +22,6 @@ export default class MenuExampleInvertedSegment extends Component {
             active={activeItem === "home"}
             onClick={this.handleItemClick}
           ><Icon name='home' />Home</Menu.Item>
-
           <Menu.Item
             as={Link}
             to="about"
