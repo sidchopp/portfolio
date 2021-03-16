@@ -1,9 +1,17 @@
 import React, { useEffect } from "react";
-import { Button, Checkbox, Form } from "semantic-ui-react";
+import { Button, Checkbox, Form, Divider, Header } from "semantic-ui-react";
 import Page from "./Page";
 function Contact() {
   return (
     <Page title="Contact">
+      <Divider
+        as='h4'
+        className='header'
+        horizontal
+      // style={{ margin: '3em 0em', textTransform: 'uppercase' }}
+      >
+        <Header as='h3' color='orange'> Recent Projects</Header>
+      </Divider>
       <Form>
         <Form.Field>
           <label style={{ color: "white" }}>First Name</label>

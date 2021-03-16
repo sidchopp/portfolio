@@ -22,7 +22,7 @@ function Work() {
         horizontal
       // style={{ margin: '3em 0em', textTransform: 'uppercase' }}
       >
-        <a href='#'>Recent Projects</a>
+        <Header as='h3' color='orange'> Recent Projects</Header>
       </Divider>
       <Segment style={{ padding: '8em 0em' }} vertical >
         <Container text>
@@ -50,11 +50,9 @@ function Work() {
             Sid-Portfolio App
         </Header>
           <p style={{ fontSize: '1.33em', color: "white" }}>
-            Fusion was created by a member of Tech and Innovation industry
-          in Alberta and four learners of the Full Stack Development program at{" "}
-            <a href="https://www.evolveu.ca/"
-              target="_blank" rel="noreferrer" >EvolveU </a>, Calgary, Alberta
-        </p>
+            A MERN Stack application {" "}
+
+          </p>
           <Button
             inverted
             color="red"
@@ -70,10 +68,7 @@ function Work() {
             Complex-App
         </Header>
           <p style={{ fontSize: '1.33em', color: "white" }}>
-            Fusion was created by a member of Tech and Innovation industry
-          in Alberta and four learners of the Full Stack Development program at{" "}
-            <a href="https://www.evolveu.ca/"
-              target="_blank" rel="noreferrer" >EvolveU </a>, Calgary, Alberta
+            An Application to post, share your views with your friends.
         </p>
           <Button
             inverted
@@ -90,10 +85,7 @@ function Work() {
             Weather-App
         </Header>
           <p style={{ fontSize: '1.33em', color: "white" }}>
-            Fusion was created by a member of Tech and Innovation industry
-          in Alberta and four learners of the Full Stack Development program at{" "}
-            <a href="https://www.evolveu.ca/"
-              target="_blank" rel="noreferrer" >EvolveU </a>, Calgary, Alberta
+            An Application which determins the weather based on User's location.
         </p>
           <Button
             inverted

@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from 'react-router-dom'
-import { Segment, Button, Image, List, Divider, Container } from "semantic-ui-react";
+import { Segment, Button, List, Divider, Container, Header, Icon } from "semantic-ui-react";
 // import '../stylesheets/footer.css'
+
 
 
 
@@ -15,9 +16,14 @@ const Footer = () => {
         <Button circular color='black' icon='facebook' bordered inverted as='a' href="https://www.facebook.com/siddchopp/" target="_blank" />
         <Button circular color='black' icon='twitter' bordered inverted as='a' href="#" target="_blank" />
         <div>
-          <List horizontal inverted divided link size='small' style={{ marginTop: '0.5em' }}>
+          <List horizontal inverted divided link size='tiny' style={{ marginTop: '0.5em' }}>
             <List.Item as='a' href='#' style={{ color: "orange" }}>
-              Sid-portfolio
+              <Header inverted as='h3'>
+                <Icon.Group size='large'>
+                  <Icon name='stripe s' color="orange " />
+                  <Icon corner name='cuttlefish' />
+                </Icon.Group>
+              </Header>
             </List.Item>
             <List.Item >
               Copyright &copy; {new Date().getFullYear()}
@@ -26,7 +32,6 @@ const Footer = () => {
               Hope you are enjoying  {days[new Date().getDay()]}
             </List.Item>
           </List>
-
         </div>
       </Segment>
     </div>
