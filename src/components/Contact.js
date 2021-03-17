@@ -25,7 +25,8 @@ function Contact() {
             </List.Item>
             <List.Item >
               <Header as='h2' inverted>
-                <Icon name='phone' size=' large' /> (587)-436-7497)</Header>
+                <Icon name='phone' size=' large' /> (587)-436-7497</Header>
+
             </List.Item>
           </List>
         </Container>
