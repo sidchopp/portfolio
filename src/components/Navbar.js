@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Menu, Segment, Icon } from "semantic-ui-react";
+import { Menu, Segment, Icon, Popup } from "semantic-ui-react";
 import { Link } from 'react-router-dom'
 import "semantic-ui-css/semantic.min.css";
 
@@ -13,7 +13,7 @@ export default class MenuExampleInvertedSegment extends Component {
 
     return (
       <Segment inverted>
-        <Menu icon='labeled' inverted secondary stackable>
+        <Menu inverted icon='labeled' secondary stackable>
 
           <Menu.Item
             as={Link}
@@ -21,7 +21,13 @@ export default class MenuExampleInvertedSegment extends Component {
             name="home"
             active={activeItem === "home"}
             onClick={this.handleItemClick}
-          ><Icon name='home' />Home</Menu.Item>
+          >
+            <Popup
+              position='bottom centre'
+              trigger={<Icon name='home' />}
+              content='Home'
+            />
+          </Menu.Item>
           <Menu.Item
             as={Link}
             to="about"
@@ -29,21 +35,33 @@ export default class MenuExampleInvertedSegment extends Component {
             name="about"
             active={activeItem === "about"}
             onClick={this.handleItemClick}
-          ><Icon name='user' />About Me</Menu.Item>
+          ><Popup
+              position='bottom centre'
+              trigger={<Icon name='user' />}
+              content='About'
+            /></Menu.Item>
           <Menu.Item
             as={Link}
             to="work"
             name="work"
             active={activeItem === "work"}
             onClick={this.handleItemClick}
-          > <Icon name='suitcase' />Work</Menu.Item>
+          > <Popup
+              position='bottom centre'
+              trigger={<Icon name='suitcase' />}
+              content='Work'
+            /></Menu.Item>
           <Menu.Item
             as={Link}
             to="contact"
             name="contact"
             active={activeItem === "contact"}
             onClick={this.handleItemClick}
-          > <Icon name='mail' />Contact</Menu.Item>
+          > <Popup
+              position='bottom centre'
+              trigger={<Icon name='mail' />}
+              content='Contact'
+            /></Menu.Item>
 
         </Menu>
 
