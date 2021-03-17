@@ -18,12 +18,6 @@ const Footer = () => {
         <div>
           <List horizontal inverted divided link size='tiny' style={{ marginTop: '0.5em' }}>
             <List.Item as='a' href='#' style={{ color: "orange" }}>
-              <Header inverted as='h3'>
-                <Icon.Group size='large'>
-                  <Icon name='stripe s' color="orange " />
-                  <Icon corner name='cuttlefish' />
-                </Icon.Group>
-              </Header>
             </List.Item>
             <List.Item >
               Copyright &copy; {new Date().getFullYear()}

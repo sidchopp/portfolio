@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Menu, Segment, Icon, Popup } from "semantic-ui-react";
+import { Menu, Segment, Icon, Popup, Header } from "semantic-ui-react";
 import { Link } from 'react-router-dom'
 import "semantic-ui-css/semantic.min.css";
 
@@ -13,8 +13,7 @@ export default class MenuExampleInvertedSegment extends Component {
 
     return (
       <Segment inverted>
-        <Menu inverted icon='labeled' secondary stackable>
-
+        <Menu pointing inverted icon='labeled' secondary stackable>
           <Menu.Item
             as={Link}
             to=""
@@ -23,8 +22,9 @@ export default class MenuExampleInvertedSegment extends Component {
             onClick={this.handleItemClick}
           >
             <Popup
+              inverted
               position='bottom centre'
-              trigger={<Icon name='home' />}
+              trigger={< Icon circular inverted name='stripe s' color="orange " />}
               content='Home'
             />
           </Menu.Item>
@@ -36,6 +36,7 @@ export default class MenuExampleInvertedSegment extends Component {
             active={activeItem === "about"}
             onClick={this.handleItemClick}
           ><Popup
+              inverted
               position='bottom centre'
               trigger={<Icon name='user' />}
               content='About'
@@ -47,6 +48,7 @@ export default class MenuExampleInvertedSegment extends Component {
             active={activeItem === "work"}
             onClick={this.handleItemClick}
           > <Popup
+              inverted
               position='bottom centre'
               trigger={<Icon name='suitcase' />}
               content='Work'
@@ -58,6 +60,7 @@ export default class MenuExampleInvertedSegment extends Component {
             active={activeItem === "contact"}
             onClick={this.handleItemClick}
           > <Popup
+              inverted
               position='bottom centre'
               trigger={<Icon name='mail' />}
               content='Contact'
