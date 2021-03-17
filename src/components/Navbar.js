@@ -24,7 +24,7 @@ export default class MenuExampleInvertedSegment extends Component {
             <Popup
               inverted
               position='bottom centre'
-              trigger={< Icon circular inverted name='stripe s' color="orange " />}
+              trigger={< Icon circular inverted name=' stripe s' color="orange " />}
               content='Home'
             />
           </Menu.Item>
