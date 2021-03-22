@@ -21,11 +21,11 @@ function Contact() {
           <List vertical inverted link size='huge' >
             <List.Item >
               <Header as='h2' inverted>
-                <Icon name='envelope open' size='large' /> sidchopp@gmail.com </Header>
+                <Icon name='envelope open' size='large' color="orange" /> sidchopp@gmail.com </Header>
             </List.Item>
             <List.Item >
               <Header as='h2' inverted>
-                <Icon name='phone' size=' large' /> (587)-436-7497</Header>
+                <Icon name='phone' size=' large' color="orange" /> (587)-436-7497</Header>
 
             </List.Item>
           </List>
