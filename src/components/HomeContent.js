@@ -2,15 +2,15 @@ import React from "react";
 import { Link } from 'react-router-dom'
 import Page from "./Page"
 import "semantic-ui-css/semantic.min.css";
+
 //import SidPic from '../images/sidPic.jpg'
 //import '../stylesheets/HomeContent.css'
 import {
   Button,
   Grid,
   Header,
-  Segment,
-  Image
-} from 'semantic-ui-react'
+  Segment
+  } from 'semantic-ui-react'
 
 function HomeContent() {
   return (
@@ -24,7 +24,7 @@ function HomeContent() {
                 Hi, I am </Header>
               <Header style={{ color: 'orange', fontSize: "4.5em" }}>Siddharth Chopra </Header>
               <Header style={{ color: 'white', fontSize: '2em' }}>
-                I am a Tech Enthusiast and a Physics Admirer.
+                I am a Tech Enthusiast and a Physics Admirer
             </Header>
               <Header
                 style={{ color: 'white', fontSize: '1.5em' }}>

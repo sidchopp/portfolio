@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Menu, Segment, Icon, Popup } from "semantic-ui-react";
+import { Menu, Segment, Icon } from "semantic-ui-react";
 import { Link } from 'react-router-dom'
 import "semantic-ui-css/semantic.min.css";
 
@@ -20,13 +20,7 @@ export default class MenuExampleInvertedSegment extends Component {
             name="home"
             active={activeItem === "home"}
             onClick={this.handleItemClick}
-          >
-            <Popup
-              inverted
-              position='bottom centre'
-              trigger={< Icon circular inverted name=' stripe s' color="orange " />}
-              content='Home'
-            />
+          >< Icon circular inverted name=' stripe s' color="orange " />
           </Menu.Item>
           <Menu.Item
             as={Link}
@@ -35,39 +29,22 @@ export default class MenuExampleInvertedSegment extends Component {
             name="about"
             active={activeItem === "about"}
             onClick={this.handleItemClick}
-          ><Popup
-              inverted
-              position='bottom centre'
-              trigger={<Icon name='user' />}
-              content='About'
-            /></Menu.Item>
+          ><Icon name='user' />User</Menu.Item>
           <Menu.Item
             as={Link}
             to="work"
             name="work"
             active={activeItem === "work"}
             onClick={this.handleItemClick}
-          > <Popup
-              inverted
-              position='bottom centre'
-              trigger={<Icon name='suitcase' />}
-              content='Work'
-            /></Menu.Item>
+          > <Icon name='suitcase' />Work </Menu.Item>
           <Menu.Item
             as={Link}
             to="contact"
             name="contact"
             active={activeItem === "contact"}
             onClick={this.handleItemClick}
-          > <Popup
-              inverted
-              position='bottom centre'
-              trigger={<Icon name='mail' />}
-              content='Contact'
-            /></Menu.Item>
-
+          > <Icon name='mail' />Contact</Menu.Item>
         </Menu>
-
       </Segment>
     );
   }
