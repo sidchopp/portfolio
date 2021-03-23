@@ -9,6 +9,7 @@ import {
   Grid,
   Header,
   Segment,
+  Image
 } from 'semantic-ui-react'
 
 function HomeContent() {
@@ -19,10 +20,10 @@ function HomeContent() {
           <Grid.Row>
             <Grid.Column width={8}>
               <Header
-                style={{ color: 'white', fontSize: "4.5em" }}>
-                Hi, I am Siddharth
-            </Header>
-              <Header style={{ color: 'white', fontSize: '2.5em' }}>
+                style={{ color: 'white', fontSize: "2em" }}>
+                Hi, I am </Header>
+              <Header style={{ color: 'orange', fontSize: "4.5em" }}>Siddharth Chopra </Header>
+              <Header style={{ color: 'white', fontSize: '2em' }}>
                 I am a Tech Enthusiast and a Physics Admirer.
             </Header>
               <Header
