@@ -1,5 +1,5 @@
-import React, { useEffect } from "react";
-import { Button, Container, Icon, Divider, Header, Segment, List, Image } from "semantic-ui-react";
+import React from "react";
+import { Container, Icon, Header, Segment, List } from "semantic-ui-react";
 import Page from "./Page";
 
 

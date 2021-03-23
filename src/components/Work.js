@@ -1,12 +1,10 @@
-import React, { useEffect } from "react";
-import Fusion from "../images/fusion.PNG";
+import React from "react";
+
 import Page from "./Page";
-import "../stylesheets/About.css";
+
 import {
   Divider,
   Segment,
-  Grid,
-  Image,
   Header,
   Button,
   Container,

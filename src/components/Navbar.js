@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Menu, Segment, Icon, Popup, Header } from "semantic-ui-react";
+import { Menu, Segment, Icon, Popup } from "semantic-ui-react";
 import { Link } from 'react-router-dom'
 import "semantic-ui-css/semantic.min.css";
 

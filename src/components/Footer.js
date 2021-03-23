@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from 'react-router-dom'
-import { Segment, Button, List, Header, Icon } from "semantic-ui-react";
+//import { Link } from 'react-router-dom'
+import { Segment, Button, List } from "semantic-ui-react";
 // import '../stylesheets/footer.css'
 
 
