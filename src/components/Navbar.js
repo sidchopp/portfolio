@@ -29,7 +29,7 @@ export default class MenuExampleInvertedSegment extends Component {
             name="about"
             active={activeItem === "about"}
             onClick={this.handleItemClick}
-          ><Icon name='user' />User</Menu.Item>
+          ><Icon name='user' />About</Menu.Item>
           <Menu.Item
             as={Link}
             to="work"

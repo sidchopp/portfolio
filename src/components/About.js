@@ -23,7 +23,7 @@ function About() {
       <Segment style={{ padding: '8em 0em' }}vertical >
         <Container text>
           <Header as='h3' style={{ fontSize: '2em', color: "white" }}>
-            1981, My Umbilical chord was cut
+            Early eighties, A little later after the first Sony's walkman was sold...
         </Header>
           <p style={{ fontSize: '1.33em', color: "white" }}>
             My Father was enjoying snow in a small hill station close to our home when the doctors were cutting the umbilical chord, so that explains where i got my sense of adventurism from
@@ -31,10 +31,12 @@ function About() {
         </p>
           <Divider horizontal ><Icon inverted color='black' name='caret down' /></Divider>
         </Container>
-      
+
+
+
         <Container text>
           <Header as='h3' style={{ fontSize: '2em', color: "white" }}>
-            1981, My Umbilical chord was cut
+            Mid eighties, A curious n
         </Header>
           <p style={{ fontSize: '1.33em', color: "white" }}>
             My Father was enjoying snow in a small hill station close to our home when the doctors were cutting the umbilical chord, so that explains where i got my sense of adventurism from
@@ -42,10 +44,59 @@ function About() {
         </p>
           <Divider horizontal ><Icon inverted color='black' name='caret down' /></Divider>
         </Container>
-     
         <Container text>
           <Header as='h3' style={{ fontSize: '2em', color: "white" }}>
-            Sometime in mid eighties, A curious n
+            Early nineties, A curious n
+        </Header>
+          <p style={{ fontSize: '1.33em', color: "white" }}>
+            My Father was enjoying snow in a small hill station close to our home when the doctors were cutting the umbilical chord, so that explains where i got my sense of adventurism from
+               
+        </p>
+          <Divider horizontal ><Icon inverted color='black' name='caret down' /></Divider>
+        </Container>
+        <Container text>
+          <Header as='h3' style={{ fontSize: '2em', color: "white" }}>
+            Mid nineties, A curious n
+        </Header>
+          <p style={{ fontSize: '1.33em', color: "white" }}>
+            My Father was enjoying snow in a small hill station close to our home when the doctors were cutting the umbilical chord, so that explains where i got my sense of adventurism from
+           
+        </p>
+          <Divider horizontal ><Icon inverted color='black' name='caret down' /></Divider>
+        </Container>
+        <Container text>
+          <Header as='h3' style={{ fontSize: '2em', color: "white" }}>
+            Mid eighties, A curious n
+        </Header>
+          <p style={{ fontSize: '1.33em', color: "white" }}>
+            My Father was enjoying snow in a small hill station close to our home when the doctors were cutting the umbilical chord, so that explains where i got my sense of adventurism from
+           
+        </p>
+          <Divider horizontal ><Icon inverted color='black' name='caret down' /></Divider>
+        </Container>
+        <Container text>
+          <Header as='h3' style={{ fontSize: '2em', color: "white" }}>
+            End of Century, A curious n
+        </Header>
+          <p style={{ fontSize: '1.33em', color: "white" }}>
+            My Father was enjoying snow in a small hill station close to our home when the doctors were cutting the umbilical chord, so that explains where i got my sense of adventurism from
+           
+        </p>
+          <Divider horizontal ><Icon inverted color='black' name='caret down' /></Divider>
+        </Container>
+        <Container text>
+          <Header as='h3' style={{ fontSize: '2em', color: "white" }}>
+            Mid eighties, A curious n
+        </Header>
+          <p style={{ fontSize: '1.33em', color: "white" }}>
+            My Father was enjoying snow in a small hill station close to our home when the doctors were cutting the umbilical chord, so that explains where i got my sense of adventurism from
+           
+        </p>
+          <Divider horizontal ><Icon inverted color='black' name='caret down' /></Divider>
+        </Container>
+        <Container text>
+          <Header as='h3' style={{ fontSize: '2em', color: "white" }}>
+            Begining of a new century
         </Header>
           <p style={{ fontSize: '1.33em', color: "white" }}>
             My Father was enjoying snow in a small hill station close to our home when the doctors were cutting the umbilical chord, so that explains where i got my sense of adventurism from
