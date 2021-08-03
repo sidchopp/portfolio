@@ -1,3 +1,7 @@
+# About it
+
+This is my first portfolio website 😊. I was working on a Udemy's Tutorial project by the wonderful Brad Schiff, when I got the idea of using those learnings into my own portfolio website.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
