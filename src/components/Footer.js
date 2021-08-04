@@ -22,7 +22,7 @@ const Footer = () => {
               Copyright &copy; {new Date().getFullYear()}
             </List.Item>
             <List.Item >
-              Hope you are enjoying  {days[new Date().getDay()]}
+              Hope you are enjoying your "{days[new Date().getDay()]}" !
             </List.Item>
           </List>
         </div>
