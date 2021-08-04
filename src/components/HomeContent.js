@@ -10,7 +10,7 @@ import {
   Grid,
   Header,
   Segment
-  } from 'semantic-ui-react'
+} from 'semantic-ui-react'
 
 function HomeContent() {
   return (
@@ -22,18 +22,18 @@ function HomeContent() {
               <Header
                 style={{ color: 'white', fontSize: "2em" }}>
                 Hi, I am </Header>
-              <Header style={{ color: 'orange', fontSize: "4.5em" }}>Siddharth Chopra </Header>
+              <Header style={{ color: 'orange', fontSize: "4.5em" }}>Siddharth Chopra. </Header>
               <Header style={{ color: 'white', fontSize: '2em' }}>
-                I am a Tech Enthusiast and a Physics Admirer
-            </Header>
+                AWS Certified Cloud Practitioner | Full Stack Developer | Physics Instructor
+              </Header>
               <Header
                 style={{ color: 'white', fontSize: '1.5em' }}>
                 I live in Calgary, Canada.
-            </Header>
+              </Header>
               <Button inverted color='orange' as={Link}
                 to="contact">
                 Get in Touch
-               </Button>
+              </Button>
             </Grid.Column>
             {/* <Grid.Column floated='right' width={6}>
               <Image bordered rounded size='large' src={SidPic} />
