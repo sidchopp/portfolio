@@ -23,16 +23,16 @@ function Work() {
         <Header as='h3' color='orange'> Recent Projects</Header>
       </Divider>
       <Segment style={{ padding: '8em 0em' }} vertical >
-        <Container text>
+        <Container textAlign='justified'>
           <Header as='h3' style={{ fontSize: '2em', color: "white" }}>
             Fusion
-        </Header>
+          </Header>
           <p style={{ fontSize: '1.33em', color: "white" }}>
             Fusion was created by a member of Tech and Innovation industry
-          in Alberta and four learners of the Full Stack Development program at{" "}
+            in Alberta and four learners of the Full Stack Development program at{" "}
             <a href="https://www.evolveu.ca/"
               target="_blank" rel="noreferrer" >EvolveU </a>, Calgary, Alberta
-        </p>
+          </p>
           <Button
             inverted
             color="red"
@@ -42,11 +42,11 @@ function Work() {
             target="_blank"
           >
             Check it Out
-              </Button>
+          </Button>
           <Divider horizontal ><Icon inverted color='black' name='caret down' /></Divider>
           <Header as='h3' style={{ fontSize: '2em', color: "white" }}>
             Sid-Portfolio App
-        </Header>
+          </Header>
           <p style={{ fontSize: '1.33em', color: "white" }}>
             A MERN Stack application {" "}
 
@@ -60,14 +60,14 @@ function Work() {
             target="_blank"
           >
             Check it Out
-              </Button>
+          </Button>
           <Divider horizontal ><Icon inverted color='black' name='caret down' /></Divider>
           <Header as='h3' style={{ fontSize: '2em', color: "white" }}>
             Complex-App
-        </Header>
+          </Header>
           <p style={{ fontSize: '1.33em', color: "white" }}>
             An Application to post, share your views with your friends.
-        </p>
+          </p>
           <Button
             inverted
             color="red"
@@ -77,14 +77,14 @@ function Work() {
             target="_blank"
           >
             Check it Out
-              </Button>
+          </Button>
           <Divider horizontal ><Icon inverted color='black' name='caret down' /></Divider>
           <Header as='h3' style={{ fontSize: '2em', color: "white" }}>
             Weather-App
-        </Header>
+          </Header>
           <p style={{ fontSize: '1.33em', color: "white" }}>
             An Application which determins the weather based on User's location.
-        </p>
+          </p>
           <Button
             inverted
             color="red"
@@ -94,7 +94,7 @@ function Work() {
             target="_blank"
           >
             Check it Out
-              </Button>
+          </Button>
         </Container>
       </Segment>
     </Page>
