@@ -11,7 +11,7 @@ import {
 
 function About() {
   return (
-    <Page title="Work">
+    <Page title="About">
       <Divider
         as='h4'
         className='header'
