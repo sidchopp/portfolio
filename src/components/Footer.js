@@ -3,9 +3,6 @@ import React from "react";
 import { Segment, Button, List } from "semantic-ui-react";
 // import '../stylesheets/footer.css'
 
-
-
-
 const Footer = () => {
   let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
   return (
@@ -22,7 +19,7 @@ const Footer = () => {
               Copyright &copy; {new Date().getFullYear()}
             </List.Item>
             <List.Item >
-              Hope you are enjoying your "{days[new Date().getDay()]}" !
+              Hope you are enjoying your <i>{days[new Date().getDay()]} !</i>
             </List.Item>
           </List>
         </div>

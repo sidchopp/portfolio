@@ -10,7 +10,6 @@ export default class MenuExampleInvertedSegment extends Component {
 
   render() {
     const { activeItem } = this.state;
-
     return (
       <Segment inverted>
         <Menu pointing inverted icon='labeled' secondary stackable >
@@ -29,7 +28,6 @@ export default class MenuExampleInvertedSegment extends Component {
             name="about"
             active={activeItem === "about"}
             onClick={this.handleItemClick}
-            color="orange "
           ><Icon name='user' />About</Menu.Item>
           <Menu.Item
             as={Link}
@@ -37,7 +35,6 @@ export default class MenuExampleInvertedSegment extends Component {
             name="work"
             active={activeItem === "work"}
             onClick={this.handleItemClick}
-            color="orange "
           > <Icon name='suitcase' />Work </Menu.Item>
           <Menu.Item
             as={Link}
@@ -45,7 +42,6 @@ export default class MenuExampleInvertedSegment extends Component {
             name="contact"
             active={activeItem === "contact"}
             onClick={this.handleItemClick}
-            color="orange "
           > <Icon name='mail' />Contact</Menu.Item>
         </Menu>
       </Segment>
