@@ -11,7 +11,7 @@ import {
 
 function About() {
   return (
-    <Page title="About">
+    <Page title="Work">
       <Divider
         as='h4'
         className='header'
@@ -21,7 +21,7 @@ function About() {
         <Header as='h3' color='orange'>My Life so far...</Header>
       </Divider>
       <Segment style={{ padding: '8em 0em' }} vertical >
-        <Container text>
+        <Container textAlign='justified'>
           <Header as='h3' style={{ fontSize: '2em', color: "white" }}>
             Career Pivot...
           </Header>
@@ -31,7 +31,7 @@ function About() {
           </p>
           <Divider horizontal ><Icon inverted color='black' name='caret down' /></Divider>
         </Container>
-        <Container text>
+        <Container textAlign='justified'>
           <Header as='h3' style={{ fontSize: '2em', color: "white" }}>
             Early eighties, A little later after the first Sony's walkman was sold...
           </Header>
@@ -44,7 +44,7 @@ function About() {
 
 
 
-        <Container text>
+        <Container textAlign='justified'>
           <Header as='h3' style={{ fontSize: '2em', color: "white" }}>
             Mid eighties, A curious n
           </Header>
@@ -54,7 +54,7 @@ function About() {
           </p>
           <Divider horizontal ><Icon inverted color='black' name='caret down' /></Divider>
         </Container>
-        <Container text>
+        <Container textAlign='justified'>
           <Header as='h3' style={{ fontSize: '2em', color: "white" }}>
             Early nineties, A curious n
           </Header>
@@ -64,7 +64,7 @@ function About() {
           </p>
           <Divider horizontal ><Icon inverted color='black' name='caret down' /></Divider>
         </Container>
-        <Container text>
+        <Container textAlign='justified'>
           <Header as='h3' style={{ fontSize: '2em', color: "white" }}>
             Mid nineties, A curious n
           </Header>
@@ -74,7 +74,7 @@ function About() {
           </p>
           <Divider horizontal ><Icon inverted color='black' name='caret down' /></Divider>
         </Container>
-        <Container text>
+        <Container textAlign='justified'>
           <Header as='h3' style={{ fontSize: '2em', color: "white" }}>
             Mid eighties, A curious n
           </Header>
@@ -84,7 +84,7 @@ function About() {
           </p>
           <Divider horizontal ><Icon inverted color='black' name='caret down' /></Divider>
         </Container>
-        <Container text>
+        <Container textAlign='justified'>
           <Header as='h3' style={{ fontSize: '2em', color: "white" }}>
             End of Century, A curious n
           </Header>
@@ -94,7 +94,7 @@ function About() {
           </p>
           <Divider horizontal ><Icon inverted color='black' name='caret down' /></Divider>
         </Container>
-        <Container text>
+        <Container textAlign='justified'>
           <Header as='h3' style={{ fontSize: '2em', color: "white" }}>
             Mid eighties, A curious n
           </Header>
@@ -104,7 +104,7 @@ function About() {
           </p>
           <Divider horizontal ><Icon inverted color='black' name='caret down' /></Divider>
         </Container>
-        <Container text>
+        <Container textAlign='justified'>
           <Header as='h3' style={{ fontSize: '2em', color: "white" }}>
             Begining of a new century
           </Header>
