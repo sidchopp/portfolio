@@ -26,7 +26,7 @@ function About() {
             Career Pivot...
           </Header>
           <p style={{ fontSize: '1.33em', color: "white" }}>
-            From a Physics Instructor for the last 15 odd years to a recent and budding Full Stack Developer has been an amazing transformation. Fortunatley, for me I never hit a plateau in my teaching career, Physics is in my DNA now, i guess, but it's the <i>curosity to explore</i> that made me to take this challenge. Teaching to some of the best minds in the world and enjoying what you do on top of that was a blessing but I always looked for ways to <i>create</i> new things and Stack Development  gives me the joy to create something new and meaningful everyday now. It's AWESOME!!!
+            From a Physics Instructor for the last 15 odd years in India to a recent and budding Full Stack Developer in Canada has been an amazing transformation. Fortunatley, for me I never hit a plateau in my teaching career, as Physics is in my DNA now, i guess, but it's the <i>curosity to explore</i> that made me to take the plunge,especially when I was doing rerally good in my teaching vocation. Teaching to some of the best minds in the world and enjoying what you do on top of that was a blessing but I always looked for ways to <i>create</i> new things and Stack Development  gives me the joy to create something new and meaningful everyday now. It's AWESOME!!!
 
           </p>
           <Divider horizontal ><Icon inverted color='black' name='caret down' /></Divider>
