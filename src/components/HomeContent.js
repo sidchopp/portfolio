@@ -19,10 +19,10 @@ function HomeContent() {
         <Grid centered stackable >
           <Grid.Row>
             <Grid.Column width={8}>
-              <Header
+              {/* <Header
                 style={{ color: 'white', fontSize: "2em" }}>
-                Hi, I am </Header>
-              <Header style={{ color: 'orange', fontSize: "4.5em" }}>Siddharth Chopra. </Header>
+                Hi, I am </Header> */}
+              <Header style={{ color: 'orange', fontSize: "4.5em" }}>Siddharth Chopra </Header>
               <Header style={{ color: 'white', fontSize: '2em' }}>
                 A curious <i>Full Stack Developer</i> & a passionate <i>Physics Instructor</i>.
               </Header>
