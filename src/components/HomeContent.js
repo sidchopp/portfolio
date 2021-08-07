@@ -24,7 +24,7 @@ function HomeContent() {
                 Hi, I am </Header>
               <Header style={{ color: 'orange', fontSize: "4.5em" }}>Siddharth Chopra. </Header>
               <Header style={{ color: 'white', fontSize: '2em' }}>
-                AWS Certified Cloud Practitioner | Full Stack Developer | Physics Instructor
+                A curious <i>Full Stack Developer</i> & a passionate <i>Physics Instructor</i>.
               </Header>
               <Header
                 style={{ color: 'white', fontSize: '1.5em' }}>
