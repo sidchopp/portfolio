@@ -6,6 +6,7 @@ import About from './components/About'
 import Work from './components/Work'
 import Home from './components/Home'
 import Contact from './components/Contact'
+import Resume from './components/Resume'
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import './stylesheets/App.css'
 
@@ -19,6 +20,7 @@ function App() {
           <Route path="/about" exact> <About /></Route>
           <Route path="/work" exact><Work /> </Route>
           <Route path="/contact" exact><Contact /> </Route>
+          <Route path="/resume" exact><Resume /> </Route>
         </Switch>
         <div className="footer"><Footer /> </div>
       </div>

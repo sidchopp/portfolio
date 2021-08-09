@@ -35,7 +35,7 @@ function HomeContent() {
                 Get in Touch
               </Button>
               <Button inverted color='orange' as={Link}
-                to="contact">
+                to="resume">
                 My Resume
               </Button>
             </Grid.Column>
