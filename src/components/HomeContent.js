@@ -30,9 +30,13 @@ function HomeContent() {
                 style={{ color: 'white', fontSize: '1.5em' }}>
                 I live in Calgary, Canada.
               </Header>
-              <Button inverted color='orange' as={Link}
+              <Button floated='right' inverted color='orange' as={Link}
                 to="contact">
                 Get in Touch
+              </Button>
+              <Button inverted color='orange' as={Link}
+                to="contact">
+                My Resume
               </Button>
             </Grid.Column>
             {/* <Grid.Column floated='right' width={6}>
