@@ -3,8 +3,8 @@ import { Card, Icon, Image, Button } from 'semantic-ui-react';
 import SidPic from '../images/sidPic.jpg'
 
 const CardExampleImageCard = () => (
-  <Card  >
-    <Image bordered rounded size='large' circular src={SidPic} wrapped ui={false} />
+  <Card fluid >
+    <Image bordered rounded size='small' circular src={SidPic} wrapped ui={false} />
     <Card.Content>
       <Card.Header>Siddharth Chopra</Card.Header>
       <Card.Meta>AWS Certified Cloud Practitioner | Full Stack Developer | Physics instructor</Card.Meta>

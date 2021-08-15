@@ -10,38 +10,47 @@ import {
   Button,
   Grid,
   Header,
-  Segment
+  Segment, Container, GridRow
 } from 'semantic-ui-react'
 
 function HomeContent() {
   return (
     <Page >
-      <Segment style={{ padding: '8em 0em' }} vertical>
-        <Grid centered stackable >
-          <Grid.Row columns={4}>
+      <Container style={{ padding: '4em 0em' }} vertical>
+        <Grid columns='equal' centered stackable >
+          <Grid.Row>
             <Grid.Column >
               <Card />
             </Grid.Column>
+
             <Grid.Column textAlign='justified' >
-              {/* <Header
-                style={{ color: 'white', fontSize: "2em" }}>
-                Hi, I am </Header> */}
-              <Header style={{ color: 'orange', fontSize: "4.5em" }}>Hello</Header>
-              <Header style={{ color: 'white', fontSize: '2.5em' }}>
-                My name is <span style={{ color: 'orange' }}>Siddharth Chopra.</span> I'm a curious Full Stack Developer and a very passionate Physics Instructor.
-              </Header>
-              <Button floated='right' inverted color='orange' as={Link}
-                to="contact">
-                Get in Touch
-              </Button>
-              <Button inverted color='orange' as={Link}
-                to="resume">
-                My Resume
-              </Button>
+              <Grid.Row>
+                <Header style={{ color: 'orange', fontSize: "4.5em" }}>Hello,</Header>
+                <Header style={{ color: 'white', fontSize: '2.5em' }}>
+                  My name is <span style={{ color: 'orange' }}>Siddharth Chopra.</span> I'm a curious Full Stack Developer and a very passionate Physics Instructor.
+                </Header>
+
+                <Grid.Row verticalAlign='bottom'>
+                  <Grid.Column >
+                    <Button floated='right' inverted color='orange' as={Link}
+                      to="contact">
+                      Get in Touch
+                    </Button>
+                  </Grid.Column>
+                  <Grid.Column>
+                    <Button inverted color='orange' as={Link}
+                      to="resume">
+                      My Resume
+                    </Button>
+                  </Grid.Column>
+
+                </Grid.Row>
+
+              </Grid.Row>
             </Grid.Column>
           </Grid.Row>
         </Grid>
-      </Segment>
+      </Container>
     </Page>
   );
 }
