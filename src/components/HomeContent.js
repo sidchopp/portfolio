@@ -19,17 +19,14 @@ function HomeContent() {
       <Container style={{ padding: '4em 0em' }} vertical>
         <Grid columns='equal' centered stackable >
           <Grid.Row>
-            <Grid.Column >
+            <Grid.Column>
               <Card />
             </Grid.Column>
 
             <Grid.Column textAlign='justified' >
               <Grid.Row>
-                <Header style={{ color: 'orange', fontSize: "4.5em" }}>Hello,</Header>
-                <Header style={{ color: 'white', fontSize: '2.5em' }}>
-                  My name is <span style={{ color: 'orange' }}>Siddharth Chopra.</span> I'm a curious Full Stack Developer and a very passionate Physics Instructor.
-                </Header>
-
+                <Header style={{ color: 'orange', fontSize: "8.5em" }}>Hello,</Header>
+                <Header style={{ color: 'white', fontSize: "2.5rem" }}>I'm a curious Full Stack Developer and a passionate Physics Instructor.</Header>
                 <Grid.Row verticalAlign='bottom'>
                   <Grid.Column >
                     <Button floated='right' inverted color='orange' as={Link}
