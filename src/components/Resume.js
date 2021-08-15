@@ -16,7 +16,6 @@ function Resume() {
           <p>
             AWS Certified Cloud Practitioner, graduated from a Full Stack Development program with a curiosity for exploration and a desire to develop scalable Web Applications, while fully understanding their business goals & deliver judicious business solutions. Also, a passionate and inspirational Physics Teacher with a strong foundation in Physics & Mathematics and over a decade of experience in providing quality education to the high school/undergrad students, mentoring and guiding them to achieve their true potential while integrating relevant technologies to make learning joyful.
           </p>
-
           <Segment style={{ padding: '4em 0em' }} vertical>
             <Grid>
               <Grid.Row>
@@ -67,7 +66,6 @@ function Resume() {
         </Container>
       </div>
     </Page>
-
   )
 }
 

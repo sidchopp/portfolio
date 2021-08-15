@@ -30,7 +30,6 @@ function HomeContent() {
               <Header style={{ color: 'white', fontSize: '2.5em' }}>
                 My name is <span style={{ color: 'orange' }}>Siddharth Chopra.</span> I'm a curious Full Stack Developer and a very passionate Physics Instructor.
               </Header>
-
               <Button floated='right' inverted color='orange' as={Link}
                 to="contact">
                 Get in Touch
@@ -40,7 +39,6 @@ function HomeContent() {
                 My Resume
               </Button>
             </Grid.Column>
-
           </Grid.Row>
         </Grid>
       </Segment>

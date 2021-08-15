@@ -1,5 +1,4 @@
 import React from "react";
-
 import Page from "./Page";
 
 import {
@@ -40,16 +39,13 @@ function Work() {
             as="a"
             href="https://fusion-alberta.herokuapp.com/"
             target="_blank"
-          >
-            Check it Out
-          </Button>
+          >Check it Out </Button>
           <Divider horizontal ><Icon inverted color='black' name='caret down' /></Divider>
           <Header as='h3' style={{ fontSize: '2em', color: "white" }}>
             Sid-Portfolio App
           </Header>
           <p style={{ fontSize: '1.33em', color: "white" }}>
             A MERN Stack application {" "}
-
           </p>
           <Button
             inverted
@@ -58,9 +54,7 @@ function Work() {
             as="a"
             href="https://fusion-alberta.herokuapp.com/"
             target="_blank"
-          >
-            Check it Out
-          </Button>
+          >Check it Out </Button>
           <Divider horizontal ><Icon inverted color='black' name='caret down' /></Divider>
           <Header as='h3' style={{ fontSize: '2em', color: "white" }}>
             Complex-App
@@ -75,9 +69,7 @@ function Work() {
             as="a"
             href="https://fusion-alberta.herokuapp.com/"
             target="_blank"
-          >
-            Check it Out
-          </Button>
+          >Check it Out</Button>
           <Divider horizontal ><Icon inverted color='black' name='caret down' /></Divider>
           <Header as='h3' style={{ fontSize: '2em', color: "white" }}>
             Weather-App
@@ -92,9 +84,7 @@ function Work() {
             as="a"
             href="https://fusion-alberta.herokuapp.com/"
             target="_blank"
-          >
-            Check it Out
-          </Button>
+          >  Check it Out </Button>
         </Container>
       </Segment>
     </Page>

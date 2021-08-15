@@ -14,7 +14,6 @@ const Footer = () => {
         <Button circular color='black' icon='twitter' bordered inverted as='a' href="#" target="_blank" />
         <div>
           <List horizontal inverted divided link size='tiny' style={{ marginTop: '0.5em' }}>
-
             <List.Item >
               Copyright &copy; {new Date().getFullYear()}
             </List.Item>
