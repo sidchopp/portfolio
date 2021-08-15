@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom'
 import Page from "./Page"
+import Card from "./Card"
 import "semantic-ui-css/semantic.min.css";
 
 //import SidPic from '../images/sidPic.jpg'
@@ -17,19 +18,19 @@ function HomeContent() {
     <Page >
       <Segment style={{ padding: '8em 0em' }} vertical>
         <Grid centered stackable >
-          <Grid.Row>
-            <Grid.Column width={8}>
+          <Grid.Row columns={4}>
+            <Grid.Column >
+              <Card />
+            </Grid.Column>
+            <Grid.Column textAlign='justified' >
               {/* <Header
                 style={{ color: 'white', fontSize: "2em" }}>
                 Hi, I am </Header> */}
-              <Header style={{ color: 'orange', fontSize: "4.5em" }}>Siddharth Chopra </Header>
-              <Header style={{ color: 'white', fontSize: '2em' }}>
-                A curious <i>Full Stack Developer</i> & a passionate <i>Physics Instructor</i>.
+              <Header style={{ color: 'orange', fontSize: "4.5em" }}>Hello</Header>
+              <Header style={{ color: 'white', fontSize: '2.5em' }}>
+                My name is <span style={{ color: 'orange' }}>Siddharth Chopra.</span> I'm a curious Full Stack Developer and a very passionate Physics Instructor.
               </Header>
-              <Header
-                style={{ color: 'white', fontSize: '1.5em' }}>
-                I live in Calgary, Canada.
-              </Header>
+
               <Button floated='right' inverted color='orange' as={Link}
                 to="contact">
                 Get in Touch
@@ -39,9 +40,7 @@ function HomeContent() {
                 My Resume
               </Button>
             </Grid.Column>
-            {/* <Grid.Column floated='right' width={6}>
-              <Image bordered rounded size='large' src={SidPic} />
-            </Grid.Column> */}
+
           </Grid.Row>
         </Grid>
       </Segment>
