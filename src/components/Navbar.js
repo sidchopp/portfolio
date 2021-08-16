@@ -19,7 +19,9 @@ export default class MenuExampleInvertedSegment extends Component {
             name="home"
             active={activeItem === "home"}
             onClick={this.handleItemClick}
-          >< Icon loading circular inverted name=' stripe s' color="orange " />
+          >< Icon inverted name=' stripe s' color="orange " />
+            < Icon loading inverted name=' info' color="orange " />
+            < Icon inverted name=' dochub' color="orange " />
           </Menu.Item>
           <Menu.Item
             as={Link}
