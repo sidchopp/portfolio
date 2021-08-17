@@ -26,25 +26,27 @@ function HomeContent() {
             <Grid.Column textAlign='justified' >
               <Grid.Row>
                 <Header style={{ color: 'orange', fontSize: "8.5em" }}>Hello,</Header>
-                <Header style={{ color: 'white', fontSize: "2rem" }}>I'm a </Header>
-                <Header style={{ color: 'white', fontSize: "2.5em" }}>Stack Developer </Header>
-                <Header style={{ color: 'orange', fontSize: "2.5em" }}>& </Header>
-                <Header style={{ color: 'white', fontSize: "2.5em" }}>Physics Instructor.</Header>
-                <Grid.Row verticalAlign='bottom'>
-                  <Grid.Column >
-                    <Button floated='right' inverted color='orange' as={Link}
-                      to="contact">
-                      Get in Touch
-                    </Button>
-                  </Grid.Column>
-                  <Grid.Column>
-                    <Button inverted color='orange' as={Link}
-                      to="resume">
-                      My Resume
-                    </Button>
-                  </Grid.Column>
+                <Header style={{ color: 'white', fontSize: "2.5rem" }}>I'm a </Header>
+                <Header style={{ color: 'orange', fontSize: "4em" }}>Stack Developer </Header>
+                <Header style={{ color: 'white', fontSize: "2.5em" }}>& </Header>
+                <Header style={{ color: 'orange', fontSize: "4em" }}>Physics Instructor.</Header>
+                <div style={{ padding: '6em 0em' }}>
+                  <Grid.Row verticalAlign='bottom'>
+                    <Grid.Column >
+                      <Button floated='right' inverted color='orange' as={Link}
+                        to="contact">
+                        Get in Touch
+                      </Button>
+                    </Grid.Column>
+                    <Grid.Column>
+                      <Button inverted color='orange' as={Link}
+                        to="resume">
+                        My Resume
+                      </Button>
+                    </Grid.Column>
 
-                </Grid.Row>
+                  </Grid.Row>
+                </div>
 
               </Grid.Row>
             </Grid.Column>
