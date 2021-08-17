@@ -20,9 +20,9 @@ export default class MenuExampleInvertedSegment extends Component {
             active={activeItem === "home"}
             onClick={this.handleItemClick}
           > <div style={{ display: 'inlineBlock' }}>
-              < Icon size='big' inverted name='bolt' color="orange " />
-              < Icon size='big' loading inverted name=' info' color="orange " />
-              < Icon size='big' inverted name=' dyalog' color="orange " />
+              < Icon size='big' fitted inverted name='bolt' color="orange " />
+              < Icon size='big' loading inverted name=' italic' color="orange " />
+              < Icon size='big' fitted inverted name=' dyalog' color="orange " />
             </div>
           </Menu.Item>
           <Menu.Item
