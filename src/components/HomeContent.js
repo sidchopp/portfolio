@@ -26,7 +26,10 @@ function HomeContent() {
             <Grid.Column textAlign='justified' >
               <Grid.Row>
                 <Header style={{ color: 'orange', fontSize: "8.5em" }}>Hello,</Header>
-                <Header style={{ color: 'white', fontSize: "2.5rem" }}>I'm a curious Full Stack Developer and a passionate Physics Instructor.</Header>
+                <Header style={{ color: 'white', fontSize: "2rem" }}>I'm a </Header>
+                <Header style={{ color: 'white', fontSize: "2.5em" }}>Stack Developer </Header>
+                <Header style={{ color: 'orange', fontSize: "2.5em" }}>& </Header>
+                <Header style={{ color: 'white', fontSize: "2.5em" }}>Physics Instructor.</Header>
                 <Grid.Row verticalAlign='bottom'>
                   <Grid.Column >
                     <Button floated='right' inverted color='orange' as={Link}
