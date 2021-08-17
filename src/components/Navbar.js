@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Menu, Segment, Icon } from "semantic-ui-react";
+import { Menu, Segment, Icon, IconGroup } from "semantic-ui-react";
 import { Link } from 'react-router-dom'
 import "semantic-ui-css/semantic.min.css";
 
@@ -19,9 +19,11 @@ export default class MenuExampleInvertedSegment extends Component {
             name="home"
             active={activeItem === "home"}
             onClick={this.handleItemClick}
-          >< Icon inverted name=' stripe s' color="orange " />
-            < Icon loading inverted name=' info' color="orange " />
-            < Icon inverted name=' dochub' color="orange " />
+          > <div style={{ display: 'inline' }}>
+              < Icon size='big' inverted name=' stripe s' color="orange " />
+              < Icon size='big' loading inverted name=' info' color="orange " />
+              < Icon size='big' inverted name=' dochub' color="orange " />
+            </div>
           </Menu.Item>
           <Menu.Item
             as={Link}
