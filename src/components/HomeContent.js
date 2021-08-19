@@ -30,22 +30,18 @@ function HomeContent() {
                 <Header style={{ color: 'orange', fontSize: "4em" }}>Stack Developer </Header>
                 <Header style={{ color: 'white', fontSize: "2.5em" }}>& </Header>
                 <Header style={{ color: 'orange', fontSize: "4em" }}>Physics Instructor.</Header>
-                <div style={{ padding: '6em 0em' }}>
-                  <Grid.Row verticalAlign='bottom'>
-                    <Grid.Column >
-                      <Button floated='right' inverted color='orange' as={Link}
-                        to="contact">
-                        Get in Touch
-                      </Button>
-                    </Grid.Column>
-                    <Grid.Column>
-                      <Button inverted color='orange' as={Link}
-                        to="resume">
-                        My Resume
-                      </Button>
-                    </Grid.Column>
+                <div style={{ padding: '2em 0em' }}>
+                  <Button floated='right' inverted color='orange' as={Link}
+                    to="contact">
+                    Get in Touch
+                  </Button>
+                  <Button floated='left' inverted color='orange' as={Link}
+                    to="resume">
+                    My Resume
+                  </Button>
 
-                  </Grid.Row>
+
+
                 </div>
 
               </Grid.Row>

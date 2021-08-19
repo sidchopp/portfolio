@@ -22,7 +22,7 @@ function Work() {
       >
         <Header as='h3' color='orange'> Recent Projects</Header>
       </Divider>
-      <Segment style={{ padding: '4em 0em' }} vertical >
+      <Segment vertical >
         <ProjectsCarousel />
         {/* <Container textAlign='justified'>
           <Header as='h3' style={{ fontSize: '2em', color: "white" }}>

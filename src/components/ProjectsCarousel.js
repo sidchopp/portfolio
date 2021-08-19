@@ -9,7 +9,7 @@ function ProjectsCarousel() {
   return (
     <> <Carousel >
       <Carousel.Item>
-        <Image style={{ display: "block", height: "500px" }}
+        <Image style={{ display: "block", height: "600px" }}
           className="d-block w-100"
           src={backgroundImage}
           alt="First slide"
@@ -20,7 +20,7 @@ function ProjectsCarousel() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img style={{ display: "block", height: "500px" }}
+        <img style={{ display: "block", height: "600px" }}
           className="d-block w-100"
           src={backgroundImage}
           alt="Second slide"
@@ -32,7 +32,7 @@ function ProjectsCarousel() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img style={{ display: "block", height: "500px" }}
+        <img style={{ display: "block", height: "600px" }}
           className="d-block w-100"
           src={backgroundImage}
           alt="Third slide"
