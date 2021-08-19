@@ -1,4 +1,8 @@
-import React from 'react'
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+
 import Navbar from "./components/Navbar";
 //import HomeContent from "./components/HomeContent";
 import Footer from "./components/Footer";

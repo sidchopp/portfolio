@@ -1,5 +1,6 @@
 import React from "react";
 import Page from "./Page";
+import ProjectsCarousel from "./ProjectsCarousel";
 
 import {
   Divider,
@@ -21,8 +22,9 @@ function Work() {
       >
         <Header as='h3' color='orange'> Recent Projects</Header>
       </Divider>
-      <Segment style={{ padding: '8em 0em' }} vertical >
-        <Container textAlign='justified'>
+      <Segment style={{ padding: '4em 0em' }} vertical >
+        <ProjectsCarousel />
+        {/* <Container textAlign='justified'>
           <Header as='h3' style={{ fontSize: '2em', color: "white" }}>
             Fusion
           </Header>
@@ -85,7 +87,7 @@ function Work() {
             href="https://fusion-alberta.herokuapp.com/"
             target="_blank"
           >  Check it Out </Button>
-        </Container>
+        </Container> */}
       </Segment>
     </Page>
   );
